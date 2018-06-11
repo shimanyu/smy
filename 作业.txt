@@ -1,0 +1,9 @@
+def smy():
+    a=[url1,url2]
+    for i in range(2):
+        url=a[i]
+        requests.get(url,headers=header)
+        b=(response.text)
+        file('https://www.baidu.com/s?ie=utf-8&f=3&rsv_bp=1&rsv_idx=1&tn=baidu&wd=zhihu&oq=%25E7%259F%25A5%25E4%25B9%258E&rsv_pq=d344b34b00019a4f&rsv_t=00394qFeGfzjj8j%2FKkNu8bFbx7Ad%2F7VjurK0GNCntF7fP1NY5UHLKEQcGBY&rqlang=cn&rsv_enter=0&prefixsug=zhihu&rsp=0/a+str(i)'),'.html'
+        with open('C:\\Users\\Administrator\\Desktop\\shimanyu/a','w',encoding='utf-8') as f:
+            f.write(response.text)
